@@ -75,11 +75,6 @@ ACCOUNT_EMAIL_REQUIRED= True
 
 ACCOUNT_AUTHENTICATION_METHOD= 'username_email'
 
-ACCOUNT_LOGIN_ATTEMPTS_LIMIT= 5
-
-
-ACCOUNT_LOGIN_ATTEMPTS_TIMEOUT= 300
-
 ACCOUNT_EMAIL_VERIFICATION= "optional"
 
 
@@ -200,7 +195,7 @@ REST_FRAMEWORK= {
     ],
 
     "DEFAULT_PAGINATION_CLASS": 'rest_framework.pagination.LimitOffsetPagination',
-    "PAGE_SIZE": 4,
+    "PAGE_SIZE": 6,
 
     'DEFAULT_SCHEMA_CLASS':'rest_framework.schemas.AutoSchema',
     

@@ -1,0 +1,8 @@
+dj-rest-auth==2.2.5
+Django==3.2.14
+django-allauth==0.51.0
+django-cors-headers==3.10.1
+django-filter==21.1
+django-rest-swagger==2.2.0
+djangorestframework==3.13.1
+djangorestframework-simplejwt==4.4.0
